@@ -1,0 +1,7 @@
+elements = ('a', 'b', 'c', 'd', 'e', 'f', 'g')
+x = elements[0]
+y = elements[2]
+z = elements[-2]
+def easy_unpack(elements):
+    return elements[0], elements[2], elements[-2]
+
